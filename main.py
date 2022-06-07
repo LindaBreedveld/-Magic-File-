@@ -1,3 +1,16 @@
+# def for making decisions
+
+
+def QuestionAnswers(Question, Choices):
+    AnswerQuestion = False
+    while not AnswerQuestion:
+        Answer = input(Question)
+        if Answer in Choices:
+            AnswerQuestion = True
+        else:
+            print("~ Please select one of the options ~")
+    return Answer
+
 # game introductions
 
 
@@ -58,20 +71,8 @@ else:
     print("Select: a)'What?? Dead?! How old were they?? D:'")
     print("Select: b)'Oh no, that's horrible, how did a whole bookcase fall on them?'")
 
-# def for making decisions
     QuestionAnswerList = ['a', 'b']
-
-    def QuestionAnswers(Question, Choices):
-        AswerQuestion = False
-        while not AnswerQuestion:
-            Answer = input(Question)
-            if Answer in Choices:
-                AnswerQuestion = True
-            else:
-                print("~ Please select one of the options ~")
-        return Answer
-
-
+    
     Answer = QuestionAnswers("~ Type 'a' or 'b' please ~", QuestionAnswerList)
 
     print("Select: a)'What?? Dead?! How old were they?? D:'")

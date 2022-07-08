@@ -1,0 +1,37 @@
+from NicknameChoosingFile import Nickname
+
+# ~ You decide to listen to some music ~
+
+input()
+print("~ You go to search for your earphones ~")
+input()
+print("~ You find them tangled in the bottom drawer of your bureau ~")
+input()
+print("~ You put on your favorite song: Library on the hill by Eddie Sheran ~")
+input()
+print("~ After awhile of listening you suddenly jump from a loud notification ~")
+input()
+print("02.47 PM - Notification: Lotte added you to 'The mystery of DH'")
+input()
+print("02.47 PM - Lex: Hellooo???")
+print("02.47 PM - Lex: What are we doing here?")
+input()
+print("02.48 PM - You: YOU ALMOST MADE ME DEAF")
+input()
+print("02.48 PM - You: I was trying to listen to some music")
+input()
+print("02.48 PM - Lex: Im very sorry", Nickname,", but I also don't know what's happening")
+input()
+print("02.48 PM - Lex: Like, why are we even here???")
+input()
+print("02.48 PM - You: How do I already have a nickname...?")
+input()
+print("02.49 PM - Bella: Hello :)")
+input()
+print("02.49 PM - Bella: I'm Bella, who are you guys?")
+input()
+print("02.49 PM - Lex: Lex here!! >:D")
+input()
+print("02.49 PM - Cas: Uhm.. hello?")
+
+import CommonFileAfterChoice2
